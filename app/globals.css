@@ -1,3 +1,5 @@
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -66,4 +68,14 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+.marker {
+  background-image: url('https://placekitten.com/g/40/40');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
 }
